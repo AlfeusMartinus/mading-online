@@ -1,0 +1,220 @@
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.main-hero {
+  background-image: url("/image/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.container-nav {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 80px;
+}
+
+.container-hero .hero,
+.container-nav .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5em;
+  height: 100%;
+}
+
+.container-nav .nav ul {
+  display: flex;
+  gap: 16px;
+}
+
+.nav ul a {
+  color: #fafafa;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 42px;
+  border: 2px solid #fafafa;
+  border-radius: 120px;
+  transition: 0.3s;
+}
+
+.nav ul a:hover {
+  color: #fafafa;
+  background-image: linear-gradient(to right, #63caff 100%, #89cff3 100%);
+  border: #63caff 2px solid;
+}
+
+.nav ul #special {
+  background-image: linear-gradient(to right, #63caff 100%, #89cff3 100%);
+  border: none;
+  transition: 0.3s;
+}
+
+.nav ul #special:hover {
+  color: #63caff;
+  background-image: linear-gradient(to right, #fdfeff 100%, #b2e5ff 100%);
+}
+
+.nav-logo img {
+  width: 72px;
+}
+
+.hero {
+  color: #fafafa;
+}
+
+.hero .hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  justify-content: center;
+}
+
+.hero .hero-title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero .hero-title p {
+  line-height: 28px;
+}
+
+.hero .hero-title h2 {
+  font-size: 2.4em;
+  font-weight: bold;
+  margin-bottom: 16px;
+  line-height: 54px;
+}
+
+.hero .hero-button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.hero .hero-button a {
+  background-image: linear-gradient(to right, #63caff 100%, #89cff3 100%);
+  color: #fafafa;
+  font-weight: bold;
+  padding: 12px 24px;
+  /* border: 2px solid #fafafa; */
+  text-decoration: none;
+  border-radius: 32px;
+  transition: 0.3s;
+}
+
+.hero .hero-button a:hover {
+  color: #63caff;
+  background-image: linear-gradient(to right, #fdfeff 100%, #b2e5ff 100%);
+}
+
+.container-about .main-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 5em;
+  margin-top: 24px;
+  height: 100%;
+  color: #23b6ff;
+}
+
+.container-about .main-about .about-title {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.container-about .main-about .title h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.container-about .main-about .text {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.container-about .main-about .text h4 {
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+.container-about .main-about img {
+  width: 120px;
+}
+
+.container-about .main-about p {
+  font-size: 0.9em;
+  line-height: 20px;
+  font-weight: 200;
+}
+
+.container-about .filter-about {
+  display: flex;
+  align-items: center;
+  padding: 0 5em;
+  margin-top: 12px;
+  height: 100%;
+  gap: 8px;
+}
+
+.container-about .filter-about form {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.filter-about input {
+  padding: 12px 20px;
+  width: 1120px;
+  border: 2px solid #23b6ff;
+  /* border-image: linear-gradient(#63caff, #89cff3) 30; */
+  border-radius: 120px;
+}
+
+.filter-about input::placeholder {
+  color: #b5b5b5;
+}
+
+.filter-about button {
+  background-image: linear-gradient(to right, #63caff 100%, #89cff3 100%);
+  color: #fafafa;
+  font-weight: bold;
+  padding: 8px 32px;
+  border: 2px solid #23b6ff;
+  text-decoration: none;
+  border-radius: 32px;
+  transition: 0.3s;
+}
+
+.filter-about img {
+  width: 20px;
+}
+
+.filter-about a {
+  background-image: linear-gradient(to right, #63caff 100%, #89cff3 100%);
+  color: #fafafa;
+  font-weight: bold;
+  padding: 12px 32px;
+  border: 2px solid #23b6ff;
+  text-decoration: none;
+  border-radius: 32px;
+  transition: 0.3s;
+}
+
+.filter-about a:hover {
+  color: #63caff;
+  background-image: linear-gradient(to right, #fdfeff 100%, #b2e5ff 100%);
+}
+
+.container-info {
+  width: 100%;
+  height: 100%;
+  margin-top: 120px;
+  padding: 0 5em;
+}
